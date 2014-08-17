@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon shopping website" parallel="tests">
+    <parameter name="url" value="http://www.Amazon.com"/>
+    <test  name= "Amazon Navigation tab">
+        <classes>
+            <class name="search1.Navigation1"/>
+            <class name="search1.Search1"/>
+        </classes>
+
+    </test>
+
+
+</suite>

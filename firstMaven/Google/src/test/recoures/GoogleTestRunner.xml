@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google search" parallel="tests">
+    <parameter name="url" value="http://www.google.com"/>
+
+
+    <test  name= "Google search">
+        <classes>
+            <class name="common.SearchGoogle"/>
+            <class name="common.NavigationG"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
